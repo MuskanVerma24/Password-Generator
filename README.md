@@ -1,5 +1,4 @@
 
-# SecurePassGen  
 <h1>Secure Password Generator</h1>
 
 SecurePassGen is a password generator developed using HTML, CSS, and JavaScript. It provides users with a simple and secure way to generate strong passwords tailored to their specific requirements.
