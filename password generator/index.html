@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-box">
+            <div class="heading">
+                <h1>Password Generator</h1>
+            </div>
+            <div class="main">
+                <div class="password">
+                    <p>Click Generate Password to generate password </p>
+                </div>
+                <button id="copy-pass">Copy</button>
+
+                <button id="generate-pass">Generate Password</button>
+                
+
+                <div class="length-of-pass">
+                    <label for="length">Password Length</label>
+                    <input type="range" placeholder="Enter Password Length" id="length" class="length-range" value="0" min="0" max="10">
+                </div>
+                
+                <div class="checkbox">
+                    <input type="checkbox" id="uppercase-letters">
+                    <label for="uppercase-letters">Include Upper Case Letters</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="lowercase-letters">
+                    <label for="uppercase-letters">Include Lower Case Letters</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="special-char">
+                    <label for="uppercase-letters">Include Special Letters</label>
+                </div>
+
+                <script src="/password generator/assets/java script/script.js"></script>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
